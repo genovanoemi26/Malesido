@@ -16,6 +16,9 @@
     <link href="assets/css/mdb.min.css" rel="stylesheet">
     <!-- Your custom styles (optional) -->
     <link href="assets/css/style.css" rel="stylesheet">
+    <!-- for testimonials -->
+    <link href="assets/css/testimonial.css" rel="stylesheet">
+ 
 <style>
 .site-footer
 {

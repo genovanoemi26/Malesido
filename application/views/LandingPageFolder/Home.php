@@ -125,10 +125,10 @@
          <img src="assets/img/promo1.jpg" style="max-width:100%;cursor:pointer" 
             onclick="onClick(this)" class="modal-hover-opacity">
       </div>
-      <div class="container1">
+      <!-- <div class="container1">
          <img src="assets/img/promo1.jpg" style="max-width:100%;cursor:pointer" 
             onclick="onClick(this)" class="modal-hover-opacity">
-      </div>
+      </div> -->
       <div class="container1">
          <img src="assets/img/promo1.jpg" style="max-width:100%;cursor:pointer" onclick="onClick(this)" class="modal-hover-opacity">
       </div>
@@ -145,22 +145,31 @@
 </div>
 <div class="w3-container w3-padding-32" id="Promos">
    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Testimonials</h3>
-   <div class="Testimo">
-      <center> <img id="testi" src="assets/img/revs.png"/></center>
+   <div class="">
+   <section id="carousel">    				
+			<div class="col-md-8 col-md-offset-2">
+                <div class="quote"><i class="fa fa-quote-left fa-4x"></i></div>
+				<div class="carousel slide" id="fade-quote-carousel" data-ride="carousel" data-interval="5000" data-pause="hover">
+
+				  <div class="carousel-inner">
+				    <div class="active item">
+				    	<blockquote>
+				    	<center><h1> hey</h1></center></blockquote>
+
+				    </div>
+				    <div class="item">
+				    	<blockquote>
+				    		<center><h2> dcfdecc</h2></center>	</blockquote>
+	
+				    </div>
+				    <div class="item">
+				    	<blockquote>
+				    		<center>  <h3> hdjbc</h3>  </center></blockquote>
+				    	
+				    </div>
+				  </div>
+				</div>
+			</div>							
+</section>
    </div>
 </div>
-<!-- SCRIPTS -->
-<!-- JQuery -->
-<script type="text/javascript" src="assets/js/jquery-3.3.1.min.js"></script>
-<!-- Bootstrap tooltips -->
-<script type="text/javascript" src="assets/js/popper.min.js"></script>
-<!-- Bootstrap core JavaScript -->
-<script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
-<!-- MDB core JavaScript -->
-<script type="text/javascript" src="assets/js/mdb.min.js"></script>
-<script type="text/javascript">
-   function onClick(element) {
-   document.getElementById("img01").src = element.src;
-   document.getElementById("modal01").style.display = "block";
-   }
-</script>
