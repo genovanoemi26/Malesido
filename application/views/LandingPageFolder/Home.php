@@ -68,6 +68,12 @@
    .center{
    text-align:center;
    }
+
+   .responsive{
+    display: block;
+  width: auto;
+  max-height: 100%
+   }
    @-webkit-keyframes zoom {
    from {-webkit-transform:scale(0)} 
    to {-webkit-transform:scale(1)}
@@ -75,6 +81,12 @@
    @keyframes zoom {
    from {transform:scale(0)} 
    to {transform:scale(1)}
+   }
+
+   .testi{
+      margin:10px;
+      /* padding-left: 70px; */
+      display:center;
    }
 </style>
 <!-- Carousel -->
@@ -125,14 +137,10 @@
          <img src="assets/img/promo1.jpg" style="max-width:100%;cursor:pointer" 
             onclick="onClick(this)" class="modal-hover-opacity">
       </div>
-      <!-- <div class="container1">
-         <img src="assets/img/promo1.jpg" style="max-width:100%;cursor:pointer" 
-            onclick="onClick(this)" class="modal-hover-opacity">
-      </div> -->
       <div class="container1">
          <img src="assets/img/promo1.jpg" style="max-width:100%;cursor:pointer" onclick="onClick(this)" class="modal-hover-opacity">
       </div>
-      <div id="modal01" class="modal" onclick="this.style.display='none'">
+      <div id="modal01" class="modal " onclick="this.style.display='none'">
          <span class="close">&times;&nbsp;&nbsp;&nbsp;&nbsp;</span>
          <div class="modal-content">
             <br>
@@ -145,31 +153,35 @@
 </div>
 <div class="w3-container w3-padding-32" id="Promos">
    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Testimonials</h3>
-   <div class="">
-   <section id="carousel">    				
+   <div class="testi">
+   <section id="carousel" >    				
 			<div class="col-md-8 col-md-offset-2">
-                <div class="quote"><i class="fa fa-quote-left fa-4x"></i></div>
-				<div class="carousel slide" id="fade-quote-carousel" data-ride="carousel" data-interval="5000" data-pause="hover">
+                <div class="quote"><i class="fa fa-quote-left fa_custom fa-4x"></i></div>
+             
+				<div class="carousel slide" style="max-width:!important auto;" id="fade-quote-carousel" data-ride="carousel" data-interval="5000" data-pause="hover">
 
-				  <div class="carousel-inner">
+				  <div class="carousel-inner" >
 				    <div class="active item">
 				    	<blockquote>
-				    	<center><h1> hey</h1></center></blockquote>
+				    	<center><i><h2> Legit Travel Agency</h2></i> - Noemi, Quezon City </center></blockquote>
 
 				    </div>
 				    <div class="item">
 				    	<blockquote>
-				    		<center><h2> dcfdecc</h2></center>	</blockquote>
+				    		<center><i><h2>Will transact again with them soon</h2></i> - Rupert, Quezon City</center>	</blockquote>
 	
 				    </div>
 				    <div class="item">
 				    	<blockquote>
-				    		<center>  <h3> hdjbc</h3>  </center></blockquote>
+				    		<center>  <i><h2> Very accomodating Staff! All your queries will be answered</h2> </i> - Gringo, Quezon City </center></blockquote>
 				    	
 				    </div>
 				  </div>
+          
 				</div>
-			</div>							
-</section>
+          
+			</div>	
+     					
+      </section>
    </div>
 </div>

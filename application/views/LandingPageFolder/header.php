@@ -1,4 +1,4 @@
-<!Doctype Html>
+
 <html>
 
 <head>
@@ -197,8 +197,8 @@
     <a href="#home" class="w3-bar-item w3-button"><b>Malesido</b> Travel&Tours</a>
     <!-- Float links to the right. Hide them on small screens -->
     <div class="w3-right w3-hide-small">
-      <a href="home" class="w3-bar-item w3-button">Home</a>
-      <a href="#Promos" class="w3-bar-item w3-button">Promos/Packages</a>
+      <a href="#" class="w3-bar-item w3-button">Home</a>
+      <a href="<?php echo base_url('landingPage/Home'); ?>" class="w3-bar-item w3-button">Promos/Packages</a>
       <a href="#about" class="w3-bar-item w3-button">About</a>
       <a href="#contact" class="w3-bar-item w3-button">Contact</a>
     </div>

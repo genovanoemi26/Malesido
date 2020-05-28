@@ -52,7 +52,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 $route['default_controller'] = 'landingPage';
 // $route['404_override'] = '';
 // $route['translate_uri_dashes'] = FALSE;
-$route['landingPage/store'] = 'landingPage/store';
+$route['landingPage/Packages'] = 'landingPage/Packages';
 
 // $route['note/create'] = 'landingPage/create';
 // $route['note/edit'] = 'landingPage/edit';
